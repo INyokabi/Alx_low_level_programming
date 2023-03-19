@@ -7,23 +7,22 @@
  */
 int main(void)
 {
-	char letter = 'a';
-
-	while (letter <= 'z')
-
-	{
-		putchar(letter);
-		letter++;
-	}
-	char letter = 'A'
-
-	while (letter <= 'Z')
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
 
 	{
-		putchar(letter);
-		letter++;
+		putchar (c);
 	}
-	putchar('\n');
 
-	return (0);
+	for (c = 'A'; c <= 'Z'; c++)
+
+	{
+		putchar (c)
+	}
+
+	putchar('\n')
+
+	return (0)
 }
+
+
