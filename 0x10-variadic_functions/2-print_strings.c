@@ -4,7 +4,7 @@
 
 /**
  * print_strings - function that prints strings, followed by a new line
- * @spearator: the string to be printed between the strings
+ * @separator: the string to be printed between the strings
  * @n: The number of strings passed to the function
  * @...: A variable number of strings to be printed.
  *
