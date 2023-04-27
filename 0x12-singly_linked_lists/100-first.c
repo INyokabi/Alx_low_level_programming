@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/* The function first is declared as a constructor */
+/* The function first is called before main() is called */
+/* The function prints a message */
+
 void first(void) __attribute__ ((constructor));
 
 /**
